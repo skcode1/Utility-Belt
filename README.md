@@ -12,7 +12,7 @@ A curated collection of lightweight Python automation scripts and utility librar
 | **📄 PDF Merger** | Sequentially merge multiple PDF files into a single unified document via `pypdf`. | [View Guide](docs/pypdf-guide.md) |
 | **🔊 Text-to-Speech Generator** | Convert custom text strings into spoken MP3 audio files via `gTTS`. | [View Guide](docs/text-to-speech-guide.md) |
 | **🎞️ Video to GIF Generator** | Convert standard MP4 video clips into lightweight, animated GIFs via `moviepy`. | [View Guide](docs/video-to-gif-guide.md) |
-
+| **🔳 QR Code Generator** | Encode text or URLs into custom, shareable images via `qrcode`. | [View Guide](docs/qr-generator-guide.md) |
 ---
 
 ## 📥 Global Installation & Setup
@@ -40,10 +40,13 @@ Utility-Belt/
 │   ├── text-to-speech-guide.md   # Setup and usage for the Text-to-Speech Generator
 │   ├── pypdf-guide.md            # Setup and usage for the PDF Merger
 │   ├── video-to-gif-guide.md     # Setup and usage for the Video to GIF Generator
+│   └── qr-generator-guide.md     # Setup and usage for the QR Code Generator
 ├── venv/                         # Virtual environment (ignored by Git)
 ├── pdf_processor.py              # PDF merger script
 ├── text_to_speech_generator.py   # Text-to-speech script
+├── animation.py                  # Motion design script
 ├── video_to_gif.py               # Video to GIF converter script
+├── qr_generator.py               # QR code generator script
 ├── yt-dlp.py                     # YouTube downloader script
 ├── .gitignore                    # Git ignore rules for media & venvs
 └── README.md                     # Project dashboard & routing
