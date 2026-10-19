@@ -22,7 +22,7 @@ pip install dnspython
 
 ## 💻 Usage
 
-1. Open `ip_resolver.py` and choose one of the available implementations based on your needs:
+1. Open `getip.py` and choose one of the available implementations based on your needs:
 
    **Option 1: Single IP Resolution (Built-in)**
    ```python
@@ -51,7 +51,7 @@ pip install dnspython
 
 2. Run your preferred script directly from your terminal:
    ```bash
-   python ip_resolver.py
+   python getip.py
    ```
 
 ### ℹ️ How it Works
