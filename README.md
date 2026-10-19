@@ -13,6 +13,7 @@ A curated collection of lightweight Python automation scripts and utility librar
 | **🔊 Text-to-Speech Generator** | Convert custom text strings into spoken MP3 audio files via `gTTS`. | [View Guide](docs/text-to-speech-guide.md) |
 | **🎞️ Video to GIF Generator** | Convert standard MP4 video clips into lightweight, animated GIFs via `moviepy`. | [View Guide](docs/video-to-gif-guide.md) |
 | **🔳 QR Code Generator** | Encode text or URLs into custom, shareable images via `qrcode`. | [View Guide](docs/qr-generator-guide.md) |
+| **🌐 Website IP Resolver** | Resolve domain names into single or multiple IP addresses using `socket` or `dnspython`. | [View Guide](docs/get-ip--guide.md) |
 ---
 
 ## 📥 Global Installation & Setup
@@ -39,6 +40,7 @@ Utility-Belt/
 │   └── yt-dlp-guide.md           # Setup and usage for the YouTube Downloader
 │   ├── text-to-speech-guide.md   # Setup and usage for the Text-to-Speech Generator
 │   ├── pypdf-guide.md            # Setup and usage for the PDF Merger
+│   ├── get-ip-guide.md      # Setup and usage for the Website IP Resolver
 │   ├── video-to-gif-guide.md     # Setup and usage for the Video to GIF Generator
 │   └── qr-generator-guide.md     # Setup and usage for the QR Code Generator
 ├── venv/                         # Virtual environment (ignored by Git)
@@ -46,6 +48,7 @@ Utility-Belt/
 ├── text_to_speech_generator.py   # Text-to-speech script
 ├── animation.py                  # Motion design script
 ├── video_to_gif.py               # Video to GIF converter script
+├── get-ip.py                     # Website IP resolver script
 ├── qr_generator.py               # QR code generator script
 ├── yt-dlp.py                     # YouTube downloader script
 ├── .gitignore                    # Git ignore rules for media & venvs
